@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "pages/main/main",
+        "pages/mine/mine",
+        "pages/lesson/lesson"
+    ],
+    "window": {
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#48A6FD",
+        "navigationBarTitleText": "第一个小程序",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [{
+                "pagePath": "pages/main/main",
+                "text": "首页",
+                "iconPath": "images/images/shouye.png",
+                "selectedIconPath": "images/images/hover-shouye.png"
+            },
+            {
+                "pagePath": "pages/main/main",
+                "text": "课程",
+                "iconPath": "images/images/class.png",
+                "selectedIconPath": "images/images/class.png"
+            }, {
+                "pagePath": "pages/main/main",
+                "text": "我的",
+                "iconPath": "images/images/mine.png",
+                "selectedIconPath": "images/images/mine.png"
+            }
+        ]
+    },
+
+    "sitemapLocation": "sitemap.json"
+}
