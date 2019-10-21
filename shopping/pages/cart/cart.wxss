@@ -1,8 +1,5 @@
 /* pages/cart/cart.wxss */
 
-
-/* pages/cart/cart.wxss */
-
 .cart-box {
     padding-bottom: 100rpx;
 }
@@ -15,17 +12,17 @@
 }
 
 .cart-list .cart-pro-select {
-    /* position: absolute; */
-    /* left: 20rpx;
-    top: 90rpx; */
+    position: absolute;
+    left: 20rpx;
+    top: 90rpx;
     width: 45rpx;
     height: 45rpx;
 }
 
 .cart-list .cart-thumb {
-    position: absolute;
+    /* position: absolute;
     top: 20rpx;
-    left: 85rpx;
+    left: 85rpx; */
     width: 185rpx;
     height: 185rpx;
 }
@@ -50,7 +47,6 @@
 }
 
 .cart-list .cart-pro-price {
-    display: inline-block;
     float: right;
     height: 105rpx;
     line-height: 50rpx;
