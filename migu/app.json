@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "书架",
+                "iconPath": "images/带书本的书架.png",
+                "selectedIconPath": ""
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "图书",
+                "iconPath": "images/图书色带.png",
+                "selectedIconPath": ""
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "发现",
+                "iconPath": "images/行星.png",
+                "selectedIconPath": ""
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "我的",
+                "iconPath": "images/用户配置文件.png",
+                "selectedIconPath": ""
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
